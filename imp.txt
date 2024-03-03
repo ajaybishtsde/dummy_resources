@@ -1,5 +1,5 @@
 aws-https://637423504797.signin.aws.amazon.com/console
-pass- hint_apna_fav_password 
+pass- kPZ3{|U&
 Kill any port :  sudo kill -9 `sudo lsof -t -i:9001`
 SSH Related
 
