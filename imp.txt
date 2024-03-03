@@ -1,0 +1,11 @@
+aws-https://637423504797.signin.aws.amazon.com/console
+pass- hint_apna_fav_password 
+Kill any port :  sudo kill -9 `sudo lsof -t -i:9001`
+SSH Related
+
+remove all identity: ssh-add -D
+list all identity : ssh-add -l
+current identity : ssh -T git@github.com
+
+
+run electron for linux : npx electron-builder build --linux deb
