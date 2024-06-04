@@ -6,6 +6,10 @@ SSH Related
 remove all identity: ssh-add -D
 list all identity : ssh-add -l
 current identity : ssh -T git@github.com
-
+eval $(ssh-agent -s) (for linux and mac)
+eval $(ssh-agent) for windows
 
 run electron for linux : npx electron-builder build --linux deb
+
+
+for ngrok >>>>>   ngrok http 3000 --host-header="localhost:3000"
